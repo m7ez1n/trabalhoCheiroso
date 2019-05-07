@@ -97,10 +97,6 @@
       <Project>{b2d6a1af-f3d0-4321-9244-c78af3f0f6e9}</Project>
       <Name>PneusCheiroso.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PneusCheiroso.Services\PneusCheiroso.Services.csproj">
-      <Project>{caf26cd7-fcf1-43a8-9ff1-ead2bc306c61}</Project>
-      <Name>PneusCheiroso.Services</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

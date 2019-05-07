@@ -57,11 +57,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.GridTotal = new System.Windows.Forms.DataGridView();
+            this.button9 = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridCarros)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GridTotal)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -249,9 +248,9 @@
             // 
             this.GridCarros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridCarros.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.GridCarros.Location = new System.Drawing.Point(373, 169);
+            this.GridCarros.Location = new System.Drawing.Point(360, 169);
             this.GridCarros.Name = "GridCarros";
-            this.GridCarros.Size = new System.Drawing.Size(618, 105);
+            this.GridCarros.Size = new System.Drawing.Size(608, 338);
             this.GridCarros.TabIndex = 20;
             // 
             // button2
@@ -355,9 +354,9 @@
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(373, 443);
+            this.button7.Location = new System.Drawing.Point(360, 524);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(251, 46);
+            this.button7.Size = new System.Drawing.Size(265, 46);
             this.button7.TabIndex = 28;
             this.button7.Text = "Preço Total";
             this.button7.UseVisualStyleBackColor = false;
@@ -370,29 +369,36 @@
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(645, 443);
+            this.button8.Location = new System.Drawing.Point(703, 524);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(287, 46);
+            this.button8.Size = new System.Drawing.Size(265, 46);
             this.button8.TabIndex = 29;
             this.button8.Text = "Total de Pneus ";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
-            // GridTotal
+            // button9
             // 
-            this.GridTotal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GridTotal.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.GridTotal.Location = new System.Drawing.Point(373, 289);
-            this.GridTotal.Name = "GridTotal";
-            this.GridTotal.Size = new System.Drawing.Size(618, 105);
-            this.GridTotal.TabIndex = 30;
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(34, 524);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(284, 46);
+            this.button9.TabIndex = 32;
+            this.button9.Text = "Carros";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
             // 
             // InterfacePneus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(1013, 540);
-            this.Controls.Add(this.GridTotal);
+            this.ClientSize = new System.Drawing.Size(1013, 607);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label10);
@@ -428,7 +434,6 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GridCarros)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GridTotal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -463,7 +468,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.DataGridView GridTotal;
+        private System.Windows.Forms.Button button9;
     }
 }
 

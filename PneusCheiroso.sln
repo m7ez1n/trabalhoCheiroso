@@ -5,11 +5,9 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PneusCheiroso", "PneusCheiroso\PneusCheiroso.csproj", "{84240AC7-1FD9-4C7F-A11E-C4B73130FC8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PneusCheiroso.Dominio", "PneusCheiroso.Dominio\PneusCheiroso.Dominio.csproj", "{B2D6A1AF-F3D0-4321-9244-C78AF3F0F6E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PneusCheiroso.Dominio", "PneusCheiroso.Dominio\PneusCheiroso.Dominio.csproj", "{B2D6A1AF-F3D0-4321-9244-C78AF3F0F6E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PneusCheiroso.Repositorio", "PneusCheiro.Repositorio\PneusCheiroso.Repositorio.csproj", "{5546A9FE-9BFE-41BF-9B3C-6D755729BDBC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PneusCheiroso.Services", "PneusCheiroso.Services\PneusCheiroso.Services.csproj", "{CAF26CD7-FCF1-43A8-9FF1-EAD2BC306C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PneusCheiroso.Repositorio", "PneusCheiro.Repositorio\PneusCheiroso.Repositorio.csproj", "{5546A9FE-9BFE-41BF-9B3C-6D755729BDBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{5546A9FE-9BFE-41BF-9B3C-6D755729BDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5546A9FE-9BFE-41BF-9B3C-6D755729BDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5546A9FE-9BFE-41BF-9B3C-6D755729BDBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAF26CD7-FCF1-43A8-9FF1-EAD2BC306C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAF26CD7-FCF1-43A8-9FF1-EAD2BC306C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAF26CD7-FCF1-43A8-9FF1-EAD2BC306C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAF26CD7-FCF1-43A8-9FF1-EAD2BC306C61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

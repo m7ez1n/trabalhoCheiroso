@@ -12,5 +12,4 @@ C:\Users\mateus\Documents\faculdade\Semestres\3° Semestre\Paradigmas de Linguag
 C:\Users\mateus\Documents\faculdade\Semestres\3° Semestre\Paradigmas de Linguagens\PneusCheiroso\PneusCheiroso\bin\Debug\PneusCheiroso.Repositorio.dll
 C:\Users\mateus\Documents\faculdade\Semestres\3° Semestre\Paradigmas de Linguagens\PneusCheiroso\PneusCheiroso\bin\Debug\PneusCheiroso.Repositorio.pdb
 C:\Users\mateus\Documents\faculdade\Semestres\3° Semestre\Paradigmas de Linguagens\PneusCheiroso\PneusCheiroso\bin\Debug\PneusCheiroso.Dominio.pdb
-C:\Users\mateus\Documents\faculdade\Semestres\3° Semestre\Paradigmas de Linguagens\PneusCheiroso\PneusCheiroso\obj\Debug\PneusCheiroso.Views.Form1.resources
 C:\Users\mateus\Documents\faculdade\Semestres\3° Semestre\Paradigmas de Linguagens\PneusCheiroso\PneusCheiroso\obj\Debug\PneusCheiroso.csproj.CopyComplete

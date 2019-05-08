@@ -15,18 +15,12 @@ namespace PneusCheiroso
 {
     public partial class InterfacePneus : Form
     {
-        InterfacePneus.StartPosition startPosition = FormStartPosition.CenterScreen;
         List<Carro> quantT = new List<Carro>();
         Carro dadosCarro;
         Conexao db = new Conexao();
         public InterfacePneus()
         {
             InitializeComponent();
-        }
-
-        private void Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void Minimize_Click(object sender, EventArgs e)
